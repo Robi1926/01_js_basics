@@ -42,15 +42,15 @@
       <h3>This is the footer</h3>
     </footer>
     <script>
-      const article1 = document.querySelector("article:nth-child(1) p ");
-      const overskrift = document.querySelector("h1");
+      const pic1 = document.querySelector("article:nth-child(1) img");
+      const pic2 = document.querySelector("article:nth-child(2) img");
+      pic1.src = "cykel.jpg";
+      pic1.alt = "Her er min cykel";
+      pic2.src = "walk.jpg";
+      pic2.alt = "Jeg går en tur";
 
-      overskrift.textContent;
-      console.log(overskrift.textContent);
-      overskrift.textContent = "Billeder";
-      console.log(overskrift.textContent);
-      article1.textContent =
-        "Her er teksten blevet ændrer ved hjælp af javascript";
+      console.log(pic1);
+      console.log(pic2);
     </script>
   </body>
 </html>
