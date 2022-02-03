@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <article id="dyr">
+      <p></p>
+      <img src="" alt="" />
+    </article>
+    <script>
+      document.addEventListener("DOMContentLoaded", start);
+
+      function start() {
+        console.log("dom er loaded");
+      }
+
+      let dyr = [
+        {
+          navn: "gris",
+          type: "pattedyr",
+          levested: "stald",
+          billede: "http://mabe-kea.dk/E19/pics/pig.png",
+        },
+        {
+          navn: "frø",
+          type: "amfibie",
+          levested: "natur",
+          billede: "http://mabe-kea.dk/E19/pics/frog.png",
+        },
+        {
+          navn: "ræv",
+          type: "pattedyr",
+          levested: "natur",
+          billede: "http://mabe-kea.dk/E19/pics/fox.png",
+        },
+        {
+          navn: "sild",
+          type: "fisk",
+          levested: "vand",
+          billede: "http://mabe-kea.dk/E19/pics/sild.jpg",
+        },
+        {
+          navn: "krokodille",
+          type: "krybdyr",
+          levested: "natur",
+          billede: "http://mabe-kea.dk/E19/pics/kroko.jpg",
+        },
+      ];
+      console.log(dyr);
+    </script>
+  </body>
+</html>
