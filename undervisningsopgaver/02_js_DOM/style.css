@@ -1,0 +1,22 @@
+img {
+  max-width: 100%;
+}
+
+#grid {
+  display: flex;
+  flex-direction: row;
+}
+h1,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+article {
+  margin: 50px;
+  border: black solid 1px;
+}
